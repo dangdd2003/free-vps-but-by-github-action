@@ -8,6 +8,5 @@ Require two secrets:
 - `NGROK_AUTH_TOKEN`: ngrok auth token (create new free account)
 
 > [!WARNING]
-> This will keep github server continuously running, so it will consume
-> github action minutes. Additional charges may apply if out of free minutes.
-> Manually turn the workflow on or off to save minutes.
+> Github action server only runs for 30-45 minutes before killing tunneling task (end session), so this is just for fast testing
+> deployment :D Do not abuse github action server to deploy or host anything, ban alert!
